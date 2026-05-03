@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie AI Recommender</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Movie Recommender 🎬</h1>
+    <p class="subtitle">Find your next favorite film using AI</p>
+
+    <div class="search-box">
+      <input id="input" placeholder="What kind of movie do you want?" />
+      <button onclick="search()">Search</button>
+    </div>
+
+    <div id="loading" class="hidden">Searching movies...</div>
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
